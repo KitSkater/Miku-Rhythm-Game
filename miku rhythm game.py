@@ -137,10 +137,16 @@ while running:
     # Show recent hit text
     hits = [h for h in hits if time.time() - h[1] < 1.0]
     for i, (label, _) in enumerate(hits[-3:]):
-        color = WHITE if label == "Perfect" else CYAN if label == "Good" else GREY
+        if label == "Perfect":
+            color = WHITE
+        elif label == "Good":
+            color = CYAN
+        else:
+            color = GREY
         text = big_font.render(label, True, color)
         win.blit(text, (WIDTH // 2 - 60, 100 + i * 40))
 
     pygame.display.update()
 
 pygame.quit()
+
