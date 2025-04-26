@@ -9,36 +9,7 @@ Name it: miku_rhythm_game
 Inside miku_rhythm_game, create these:
 
 main.py → Right-click > New Text File > Rename it to main.py
+add the miku song to the folder in mp3 formate 
 
-beatmap.txt → Same way
+done just run it
 
-Create the assets folder:
-
-Inside miku_rhythm_game, make a folder named assets
-
-Put your files in assets:
-
-Drop in your song.mp3 and miku.png images
-
-⚙️ Option 2: Use Terminal / Command Line
-This works on Windows CMD, PowerShell, macOS Terminal, or Linux terminal.
-
-bash
-Copy
-Edit
-mkdir -p miku_rhythm_game/assets
-cd miku_rhythm_game
-touch main.py beatmap.txt
-cd assets
-# Add your files here manually (or copy them in)
-✅ Now your file tree should look like:
-
-css
-Copy
-Edit
-miku_rhythm_game/
-├── main.py
-├── beatmap.txt
-└── assets/
-    ├── song.mp3     ← your Miku song
-    └── miku.png     ← a cute Miku image
