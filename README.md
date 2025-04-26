@@ -19,21 +19,23 @@ A simple DDR-style rhythm game featuring Hatsune Miku!
   - Miss
 
 ## 📂 Folder Structure
-miku_rhythm_game/ ├── main.py ← Game code ├── beatmap.txt ← Edit this for custom songs! └── assets/ ├── song.mp3 ← Your Miku song └── miku.png ← Your favorite Miku sprite
+just make a folder and put the code and the songes (mp3) 
 
+## miku is in baces 64 
 
 ## 📦 Requirements
 
 - Python 3.x
-- Pygame (`pip install pygame`)
+- Pygame 
+- base64
+- io
+- sys
 
 ## 💡 Future Ideas
 
-- Beatmap editor
-- Fancy animations
 - More songs + charts
 - Difficulty levels
 
 ---
 
-Made with love for Miku 💙
+Made with love for Miku 💙my love
